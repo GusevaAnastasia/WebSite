@@ -51,7 +51,7 @@
    
   </div>
 
-   <p style = "font-size: 2em; font-family: 'Montserrat', sans-serif; text-align: center; margin-top: 10px; margin-bottom: 300px;">Пока что нет никаких новостей!!!</p>
+   <p style = "font-size: 2em; font-family: 'Montserrat', sans-serif; text-align: center; margin-top: 10px; margin-bottom: 250px;">Пока что нет никаких новостей!!!</p>
 
   <footer>
     <div id="site_name">
