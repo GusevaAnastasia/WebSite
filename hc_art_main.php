@@ -48,12 +48,13 @@
         <span>Поиск <i class="fa-solid fa-magnifying-glass"></i></span>
       </div>
     </nav>
-   
-  </div>
+    </div>
 
-  <a href="ft_art_main.php">
-        <div class="article"><img src="https://img.sportsdaily.ru/iblock/a90/a90f35c298f1965c38ed456002ca2b64/d425e7b2105e7f9ca505bb2f1e93f111.jpg">
-          <span>Отвечавший за VAR в финале ЧМ-2022 оценил работу главного арбитра</span></div></a>
+    <div id="news_art">
+        <h2 class="heading">Капитан «Вашингтона» Александр Овечкин превзошел Горди Хоу по голам в НХЛ, теперь впереди — рекорд Уэйна Гретцки</h2>
+        <div style="clear:both"><br></div>
+    </div>
+
 
   <footer>
     <div id="site_name">

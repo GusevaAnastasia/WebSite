@@ -1,0 +1,36 @@
+/*.article_st{
+	width: 40%;
+	float: left;
+	margin-right: 10%;
+	margin-bottom: 200px;
+	border: 1px solid darkblue;
+	box-sizing: border-box;
+	background-color: white;
+	max-width: 350px;
+	border-radius: 5px;	
+}
+
+.article_st>img{
+	border-radius: 5px 5px 0 0;
+	width: 100%;
+}
+
+.article_st>span{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.3em;
+	width: 80%;
+	margin: 7px 10%;
+	float: left;
+	text-align: center;
+	color: darkblue;
+}*/
+
+#news_art{
+	object-position: top;
+	font-weight: lighter;
+	font-size: 1.4em;
+	font-family: 'Montserrat', sans-serif;
+    border-bottom: 2px solid darkblue;
+    margin-top: 10%;
+    margin-bottom: 500px;
+}

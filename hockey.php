@@ -30,10 +30,10 @@
     </div>
 
     <div id="reg_auth">
-      <a href="" title="Войти в кабинет пользователя"><div class="btn">Войти</div>
+      <a href="ent_form.php" title="Войти в кабинет пользователя"><div class="btn">Войти</div>
       </a>
 
-      <a href="" title="Зарегестрироваться на сайте"><div class="btn">Регистрация</div>
+      <a href="reg_form.php" title="Зарегестрироваться на сайте"><div class="btn">Регистрация</div>
       </a>
     </div>
     </header>
@@ -45,11 +45,12 @@
       <a href="biathlon.php">Биатлон</a>
   
       <div id="search">
-        <span>Поиск <i class="fa-solid fa-magnifying-glass"></i></span>
+        <h1>Поиск <i class="fa-solid fa-magnifying-glass"></i></h1>
       </div>
     </nav>
+    </div>
+
    
-  </div>
 
   <footer>
     <div id="site_name">
@@ -58,8 +59,7 @@
     <div id="clear"></div>
     <div id="footer_menu">
       <a href="" title="Узнать о рекламе">Реклама</a>
-      <a href="" title="Поддержать проект">Поддержать проект</a>
-      <a href="" title="Написать письмо">Обратная связь</a>
+      <a href="feedback.php" title="Написать письмо">Обратная связь</a>
     </div>
     <div id="rights">
       <a href="">Все права защищены &copy; <?=date('Y')?></a>

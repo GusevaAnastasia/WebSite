@@ -30,10 +30,10 @@
     </div>
 
     <div id="reg_auth">
-      <a href="" title="Войти в кабинет пользователя"><div class="btn">Войти</div>
+      <a href="ent_form.php" title="Войти в кабинет пользователя"><div class="btn">Войти</div>
       </a>
 
-      <a href="" title="Зарегестрироваться на сайте"><div class="btn">Регистрация</div>
+      <a href="reg_form.php" title="Зарегестрироваться на сайте"><div class="btn">Регистрация</div>
       </a>
     </div>
     </header>
@@ -52,16 +52,23 @@
        <div id="news">
         <h2 class="heading">Новости</h2>
         <div style="clear:both"><br></div>
-        <?php 
-           for($i = 0; $i < 3; $i++)
-              echo ' <div class="article"><img src="img/article1.jpg">
-          <span>Gjefc bsh sdfhvjcxms sdfhjckx</span>
-        </div>'
-        ?>
-
+        
+        <a href="hc_art_main.php">
         <div class="article"><img src="img/article1.jpg">
-          <span>Gjefc bsh sdfhvjcxms sdfhjckx</span>
-        </div>
+          <span>Александр Овечкин превзошел Горди Хоу по голам в НХЛ</span></div></a>
+
+        <a href="ft_art_main.php">
+        <div class="article"><img src="https://img.sportsdaily.ru/iblock/a90/a90f35c298f1965c38ed456002ca2b64/d425e7b2105e7f9ca505bb2f1e93f111.jpg">
+          <span>Отвечавший за VAR в финале ЧМ-2022 оценил работу главного арбитра</span></div></a>
+
+        <a href="fs_art_main.php">
+        <div class="article"><img src="https://sigma-z.ru/wp-content/uploads/2022/12/kanadskaya-figuristka-otreagirovala-na-vystuplenie-tuktamyshevoj-na-chempionate-rossii.jpg">
+          <span>Интервью Елизаветы Туктамышевой после ЧР-2022</span></div></a>
+
+        <a href="b_art_main.php">
+        <div class="article"><img src="https://faktologia.com/wp-content/uploads/2022/12/bmnvk7ge2h4pjr9q5pluiwntba2646ic.png">
+          <span>Белорусская биатлонистка Алимбекова стала победителем масс-старта на этапе Кубка Содружества в Рязани</span></div></a>
+        
         
         <a href="" title="Посмотреть больше новостей">
            <div class="btn">Посмотреть больше</div></a>
@@ -71,12 +78,22 @@
         <div id="match">
            <h2 class="heading">Обзоры матчей</h2>  
         <div style="clear:both"><br></div>
-        <?php
-           for($i = 0; $i < 3; $i++)
-              echo ' <div class="review"><img src="https://img.championat.com/s/1350x900/news/big/s/l/roman-rotenberg-stal-trenerom-ska_16011153221338116227.jpg" alt="Test title="test>
-          <span>СКА в третий раз за сезон обыграл «СПАРТАК»</span>
-        </div>'  
-        ?>
+        
+        <a href="https://youtu.be/V4Um-IpwzS4">
+        <div class="review"><img src="https://img.championat.com/s/1350x900/news/big/s/l/roman-rotenberg-stal-trenerom-ska_16011153221338116227.jpg" alt="Test title="test>
+          <span>После матча СКА – Спартак: Гришин, Ротенберг, Солянников, Алтыбармакян</span>
+        </div></a>
+
+        <a href="https://youtu.be/mzPB6dvQCs8">
+        <div class="review"><img src="https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/a1/fe/ea507573ba1b7bfea6bbd715e4aa4c1063a82c26a8a8f614620295.jpg" alt="Test title="test>
+          <span>Биатлон. PARI Кубок Содружества. Рязань. Масс-старт. Женщины</span>
+        </div></a> 
+
+        <a href="https://youtu.be/qY2D-UQowb8">
+        <div class="review"><img src="https://storage.myseldon.com/news-pict-26/26F9EE0B3D24B821DC66DF357224C2D8" alt="Test title="test>
+          <span>Произвольная программа. Женщины. Чемпионат России-2023</span>
+        </div></a>
+
         <a href="" title="Посмотреть все видео">
           <div class="btn">Посмотреть все видео
         </div>
@@ -92,7 +109,6 @@
     <div id="clear"></div>
     <div id="footer_menu">
       <a href="" title="Узнать о рекламе">Реклама</a>
-      <a href="" title="Поддержать проект">Поддержать проект</a>
       <a href="feedback.php" title="Написать письмо">Обратная связь</a>
     </div>
     <div id="rights">
