@@ -8,3 +8,10 @@ body {
 	background-color: #EEFAFF;
 	font-family: 'Montserrat', sans-serif;
 }
+
+.heading{
+	font-weight: lighter;
+	font-size: 2em;
+	font-family: 'Montserrat', sans-serif;
+    border-bottom: 2px solid darkblue;
+}
