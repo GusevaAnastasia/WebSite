@@ -23,4 +23,8 @@ if(!empty($user1)){
 	echo "Данный логин уже используется!";
 	exit();
 }
+
+$mysql->query("INSERT INTO `users` (`login`, `pass`, `name`)
+	VALUES('$login', '$pass', '$name')");
+$mysql->close();
 ?>
