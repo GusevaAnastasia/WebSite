@@ -71,6 +71,7 @@
     <label for="exampleInputPassword1" class="form-label">Повторите пароль</label><br>
     <input type="password" class="form-control" id="exampleInputPassword2">
   </div><br>
+  
 
   <div class="btn">Подвердить</div>
   <a href="ent_form.php" title="Войти"><div class="btn">Авторизация</div>
