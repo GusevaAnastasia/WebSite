@@ -14,4 +14,8 @@ else if(mb_strlen($name) < 5){
 } 
 
 $pass = md5($pass."checkpassanguwert");
+
+$mysql = new mysqli('localhost', 'root', '', 'register_bd');
+
+
 ?>
