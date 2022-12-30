@@ -12,4 +12,6 @@ else if(mb_strlen($name) < 5){
 	echo "Недопустимая длина имени.";
 	exit();
 } 
+
+$pass = md5($pass."checkpassanguwert");
 ?>
