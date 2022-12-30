@@ -55,7 +55,7 @@
  <h2 class="heading_n">Регистрация</h2>
  <div style="clear:both"><br></div>
  <div class="conteiner">
- <form class="row justify-content-md-center" method="post" action="reg_form.php">
+ <form method="post" action="check.php">
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Логин</label><br>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -77,6 +77,8 @@
       </a>
  </form>
  </div>
+
+
 
  <br>
 
