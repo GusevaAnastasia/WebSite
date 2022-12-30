@@ -7,6 +7,7 @@
           <title>SportLife - сайт о спорте</title>
      <link rel = "stylesheet" href = "css/main.css" type="text/css" charset="utf-8">
      <link rel = "stylesheet" href = "css/main_page.css" type="text/css" charset="utf-8">
+     <link rel = "stylesheet" href = "css/forms.css" type="text/css" charset="utf-8">
      <meta name="description" content = "Информационно - развлекательный портал для любителей спорта">
      <meta name ="viewport" content = "width=device-width, initial-scale=1">
      <link href="img/log.ico" rel="shortcut icon" type="image/x-icon">
