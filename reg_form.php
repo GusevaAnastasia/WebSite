@@ -55,7 +55,7 @@
  <h2 class="heading_n">Регистрация</h2>
  <div style="clear:both"><br></div>
  <div class="conteiner">
- <form method="post" action="check.php">
+ <form method="post" action="save_acc.php">
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Логин</label><br>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -67,13 +67,7 @@
     <input type="password" class="form-control" id="exampleInputPassword1">
   </div>
 
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Повторите пароль</label><br>
-    <input type="password" class="form-control" id="exampleInputPassword2">
-  </div><br>
-  
-
-  <div class="btn">Подвердить</div>
+  <input type="submit" class="btn" name="submit" value="Зарегистрироваться">
   <a href="ent_form.php" title="Войти"><div class="btn">Авторизация</div>
       </a>
  </form>
