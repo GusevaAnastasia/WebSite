@@ -49,14 +49,13 @@
         <span>Поиск <i class="fa-solid fa-magnifying-glass"></i></span>
       </div>
     </nav>
-    </div>
 
     <div id="news_art">
         <h2 class="heading">Капитан «Вашингтона» Александр Овечкин превзошел Горди Хоу по голам в НХЛ, теперь впереди — рекорд Уэйна Гретцки</h2>
         <div style="clear:both"><br></div>
     </div>
 
-
+</div>
   <footer>
     <div id="site_name">
       <span>SportLife</span> - актуальное о спорте!

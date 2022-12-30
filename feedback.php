@@ -43,15 +43,37 @@
       <a href="figureskating.php">Фигурное катание</a>
       <a href="skiing.php">Лыжи</a>
       <a href="biathlon.php">Биатлон</a>
-  
+
       <div id="search">
         <span>Поиск <i class="fa-solid fa-magnifying-glass"></i></span>
       </div>
     </nav>
+
+  <div id="main">
+     <div id="news">
+      <h2 class="heading">Обратная связь</h2>
+      <div style="clear: both"><br></div>
+      <div class="block">
+          Чтобы отправить сообщение нам, заполните и отправьте форму!
+          <br>
+          <form>
+             <div>
+                <input type="text" id="name" placeholder="Ваше имя">
+                <br><br>
+                <input type="email" id="email" placeholder="Email..">
+
+             </div>
+             <br>
+             <div>
+                <textarea id="message" placeholder="Введите сообщение"></textarea>
+             </div><br>
+             <input type="button" id="send" class="btn" value="Отправить">
+
+          </form>
+      </div>
+     </div>
   </div>
-
-  
-
+  </div>
   <footer>
     <div id="site_name">
       <span>SportLife</span> - актуальное о спорте!

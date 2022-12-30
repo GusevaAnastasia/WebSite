@@ -1,0 +1,19 @@
+form{
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+}
+
+form>div{
+	float: left;
+	width: 50%;
+}
+
+form>div>input{
+	border-radius: 50px;
+	border: 1px solid darkblue;
+	font-size: 0.8em;
+	padding: 10px 5%;
+	margin-bottom: 10px;
+	background-color: white;
+}

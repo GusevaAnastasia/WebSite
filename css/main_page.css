@@ -92,4 +92,11 @@ aside{
 	float: left;
 }
 
-
+.block{
+	background-color: #fafafa;
+	border-radius: 5px;
+	border: 1px solid darkblue;
+	font-size: 1.1em;
+	font-family: 'Montserrat', sans-serif;
+	
+}
