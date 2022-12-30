@@ -17,5 +17,10 @@ $pass = md5($pass."checkpassanguwert");
 
 $mysql = new mysqli('localhost', 'root', '', 'register_bd');
 
-
+$result1 = $mysql->query("SELECT * FROM `users` WHERE `login` = '$login'");
+$user1 = $result1->fetch_assoc(); 
+if(!empty($user1)){
+	echo "Данный логин уже используется!";
+	exit();
+}
 ?>
